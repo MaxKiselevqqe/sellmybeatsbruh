@@ -3,23 +3,68 @@ body {
     margin: 0;
   font-family: 'Roboto Slab', serif;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
 }
 .container {
     width: 1180px;
     margin: 0 auto;
-  }
+}
+.header {
+     background: url('../image/sound.jpg') no-repeat center / cover;
+   margin: auto;
+   padding-bottom: 200px;
+}
+
+
+
+}
+header a{
+    color: black; 
+}
 ul, li {
     display: block;
     padding: 0;
     margin: 0;
 }
-.header {
-     background: url('../img/back.png') no-repeat center top / cover;
-     padding-top: 50px;
-     padding-bottom: 500px;
+.menu li a {
+ text-transform: uppercase;  
+ text-decoration: none; 
+ font-size: 30px;
 }
-header a{
-    color: black; 
+.menu li {
+    margin-right: 30px;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.1em;
+/*    убирает т0чки у ссыл0к*/
+}
+.tel {
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: auto;
+     letter-spacing: 0.0.5em;
+}
+.menu {
+    display: flex;
+    /*  ставит в ряд кликабельные бл0ки*/
+    align-items: center;
+}
+.item{
+background: tan;
+border: 10px solid darkslategrey;
+    margin : 300px 300px 300px 300px;
+    border-radius: 20px;
+     padding: 10px;
+     font-size: 40px;
+     text-transform: uppercase;
+     }
+
+
+}
+.top menu {
+    display: flex;
 }
 
