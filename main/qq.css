@@ -5,22 +5,51 @@ body {
     color: black;
     font-size: 20px;
 }
-.container {
-    width: 1180px;
-    margin: 0 auto;
+section {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800px;
+
 }
-.header {
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: tan;
+}
+nav a{
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    padding: 8px 25px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+nav a:hover
+{
+    background: darkslategrey;
+    color: darkkhaki;
+
+}
+.container {
+    width: 1200px;
+    margin:  auto;
+    padding-top: 50px;
+
+}
+.section1 {
      background: url('../image/sound.jpg') no-repeat center / cover;
    margin: auto;
-   padding-bottom: 200px;
+   
 }
 
-
-
-}
-header a{
-    color: black; 
-}
 ul, li {
     display: block;
     padding: 0;
@@ -30,6 +59,7 @@ ul, li {
  text-transform: uppercase;  
  text-decoration: none; 
  font-size: 30px;
+ color: darkkhaki;
 }
 .menu li {
     margin-right: 30px;
@@ -39,13 +69,16 @@ ul, li {
     padding: 0;
     margin: 0;
     letter-spacing: 0.1em;
-/*    убирает т0чки у ссыл0к*/
+    
+
 }
 .tel {
     font-size: 30px;
     text-decoration: none;
-    margin-left: auto;
+    margin-right: auto;
      letter-spacing: 0.0.5em;
+     color: darkkhaki;
+     display: block;
 }
 .menu {
     display: flex;
@@ -53,18 +86,48 @@ ul, li {
     align-items: center;
 }
 .item{
-background: tan;
-border: 10px solid darkslategrey;
-    margin : 300px 300px 300px 300px;
+background: darkslategrey;
+border: 5px solid SlateGrey;
+    margin : 200px 200px 200px 200px;
     border-radius: 20px;
-     padding: 10px;
-     font-size: 40px;
-     text-transform: uppercase;
-     }
-
-
+    padding: 10px;
+    color: tan;
+    font-size: 60px;
+    font-weight : bold;
 }
 .top menu {
     display: flex;
+    transition: height 0.3s;
+  overflow: hidden;
+  margin-top : 400px;
+}
+h1 {
+    margin-left: auto;
+    font-size: 40px;
+    color: darkkhaki;
+}
+.content1 p1{
+    width: 500px;
+    height: 500px;
+    color: MistyRose;
+    font-size: 25px;
+    text-align: justify;
+}
+h2 {
+    margin-left: auto;
+    font-size: 30px;
+    color: darkkhaki;
+}
+.section2 {
+     background: url('../image/2.jpg') no-repeat center / cover;
+   margin: auto;
+}
+.section3{
+     background: url('../image/3812.jpg') no-repeat center / cover;
+   margin: auto;
 }
 
+.section4 {
+     background: url('../image/21013.jpg') no-repeat center / cover;
+   margin: auto;
+}
