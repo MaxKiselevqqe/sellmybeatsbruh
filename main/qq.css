@@ -46,7 +46,7 @@ nav a:hover
 
 }
 .section1 {
-     background: url('../image/13.jpg') no-repeat center / cover;
+     background: url('../image/back50.jpg') no-repeat center / cover;
    margin: auto;
    
 }
@@ -60,13 +60,13 @@ ul, li {
  text-transform: uppercase;  
  text-decoration: none; 
  font-size: 30px;
- color: black;
+ color: lightsteelblue;
 }
 .menu li {
-    margin-right: 30px;
+    display:flex;
+    justify-content: flex-start;
 }
 ul, li {
-    display: block;
     padding: 0;
     margin: 0;
     letter-spacing: 0.1em;
@@ -76,10 +76,9 @@ ul, li {
 .tel {
     font-size: 30px;
     text-decoration: none;
-    margin-right: auto;
+    justify-content: flex-end;
      letter-spacing: 0.0.5em;
-     color: Black;
-     display: block;
+     color: lightsteelblue;
      font-style: bold;
 }
 .menu {
@@ -127,7 +126,7 @@ h2 {
     color: darkslategrey;
 }
 section:nth-child(2) {
-     background: url('../image/13.jpg') no-repeat center / cover;
+     background: url('../image/back50.jpg') no-repeat center / cover;
    margin: auto;
 }
 .item2{
@@ -160,8 +159,9 @@ p2{
     display: BLOCK;
 }
 
+
 section:nth-child(3){
-     background: url('../image/13.jpg') no-repeat center / cover;
+     background: url('../image/back50.jpg') no-repeat center / cover;
    margin: auto;
 }
 .item3{
@@ -186,7 +186,7 @@ p3{
     text-align: justify;
     }
 section:nth-child(4){
-     background: url('../image/13.jpg') no-repeat center / cover;
+     background: url('../image/back50.jpg') no-repeat center / cover;
    margin: auto;
 }
 .item4{
@@ -203,13 +203,16 @@ h5{
     margin-left: auto;
     font-size: 70px;
     color:darkslategrey ;
-    display: block;
     text-transform: uppercase;
+    display: block;
 }
 p4{
     color: black;
-    font-size: 50px;
+    font-size: 40px;
     text-align: justify;
     margin: 50px;
     display: block;
-    }
+}
+input{
+
+}
